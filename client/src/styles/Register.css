@@ -1,0 +1,94 @@
+/* Register.css */
+
+/* Center the form on the page */
+.form-constainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+/* Style the form itself */
+.form-constainer .ant-form {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Style the heading */
+.form-constainer h3 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    color: #1890ff;
+}
+
+/* Style the form items */
+.form-constainer .ant-form-item {
+    margin-bottom: 1.5rem;
+}
+
+/* Style the labels */
+.form-constainer .ant-form-item-label {
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+/* Style the input fields */
+.form-constainer .ant-input {
+    border-radius: 4px;
+    padding: 0.5rem;
+    border: 1px solid #d9d9d9;
+}
+
+/* Style the input fields when they are focused */
+.form-constainer .ant-input:focus {
+    border-color: #40a9ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+/* Style the link for navigation */
+.form-constainer .m-2 {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #1890ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Style the link on hover */
+.form-constainer .m-2:hover {
+    color: #40a9ff;
+    text-decoration: underline;
+}
+
+/* Style the submit button */
+.form-constainer .btn-primary {
+    width: 100%;
+    background-color: #1890ff;
+    border-color: #1890ff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the submit button on hover */
+.form-constainer .btn-primary:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+
+/* Style the submit button when it is active (clicked) */
+.form-constainer .btn-primary:active {
+    background-color: #096dd9;
+    border-color: #096dd9;
+}
